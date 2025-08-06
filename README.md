@@ -7,6 +7,8 @@
 
 *Interpretable predictive modeling of FC-behavior association. Our model learns fine-grained FC patterns predictive of behavioral traits at both regional and participant levels, capturing the overall FC-behavior association. Region-wise predictions are integrated using region-wise relevance scores, yielding a participant level prediction and an interpretable measure of each region’s contribution. These regional predictions and relevance scores are optimized collaboratively using a mean square error (MSE) based loss to enhance prediction performance.*
 
+---
+
 ## 🧠 Overview
 This repository contains code and resources for uncovering functional connectivity (FC) patterns predictive of behavioral traits using interpretable machine learning models. The project aims to enhance the generalizability and interpretability of brain-wide association studies (BWAS) by learning fine-grained FC patterns at both regional and participant levels.
 
@@ -57,9 +59,13 @@ cd interpretable-fc-modeling
 pip install -r requirements.txt
 ```
 
+---
+
 ## 💻 Usage
 
-To train the model, execute the `train_region_interpret_model.py` script with the following arguments:
+### Model Traing
+
+To train a model, execute the `train_region_interpret_model.py` script with the following arguments:
 
 ```bash
 python ./src/train_region_interpret_model.py ${fold_id} ${trait_id} ${data_dir} ${train_list} ${fc_mode} ${output_dir} ${validation_list}
@@ -88,8 +94,6 @@ python ./src/train_region_interpret_model.py ${fold_id} ${trait_id} ${data_dir} 
     * `subcortical`: Subcortical-to-cortical FC (e.g., 19x333).
 * `output_dir`: Path to the directory where the trained model will be saved (e.g., `output_dir/model_fold1_mse_pc1_Adam_regAtt_1.0/weights_200.pth`).
 * `validation_list`: A `.csv` file with the same format as `train_list` for the validation set.
-
----
 
 ### Model Testing
 
