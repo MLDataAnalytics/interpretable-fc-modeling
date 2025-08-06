@@ -1,4 +1,4 @@
-# Interpretable FC Modeling
+# Interpretable Modeling of Functional Connectivity to Uncover Patterns Predictive of Cognitive Function in Youth
 
 
 [![bioRxiv](https://img.shields.io/badge/bioRxiv-Preprint-blue.svg)](https://doi.org/10.1101/2025.03.09.642155)
