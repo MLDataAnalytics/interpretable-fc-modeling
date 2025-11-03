@@ -1,5 +1,6 @@
 # Interpretable Modeling of Functional Connectivity to Uncover Patterns Predictive of Cognitive Function in Youth
 
+[![PNAS DOI Shield](https://img.shields.io/badge/PNAS-10.1073%2Fpnas.2505600122-blue)](https://doi.org/10.1073/pnas.2505600122)
 [![bioRxiv](https://img.shields.io/badge/bioRxiv-Preprint-blue.svg)](https://doi.org/10.1101/2025.03.09.642155)
 
 <p align="center" width="100%">
@@ -120,6 +121,17 @@ python ./src/test_region_interpret_model.py ${fold_id} ${trait_id} ${data_dir} $
 For a comprehensive understanding of the method, please refer to the full manuscript. If you find this method useful or inspiring in your research, please consider citing:
 
 ```bibtex
+@article{Li2025Uncovering,
+  title={{Uncovering functional connectivity patterns predictive of cognition in youth using interpretable predictive modeling}},
+  author={Li, Hongming and Cieslak, Matthew and Salo, Taylor and Shinohara, Russell T. and Oathes, Desmond J. and Davatzikos, Christos and Satterthwaite, Theodore D. and Fan, Yong},
+  journal={{Proceedings of the National Academy of Sciences}},
+  volume={122},
+  issue={42},
+  pages={e2505600122},
+  year={2025},
+  publisher={National Academy of Sciences},
+  doi={10.1073/pnas.2505600122}
+}
 @article {Li2025.03.09.642155,
 	author = {Li, Hongming and Cieslak, Matthew and Salo, Taylor and Shinohara, Russell T. and Oathes, Desmond J. and Davatzikos, Christos and Satterthwaite, Theodore D. and Fan, Yong},
 	title = {Uncovering functional connectivity patterns predictive of cognition in youth using interpretable predictive modeling},
