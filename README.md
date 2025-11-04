@@ -4,7 +4,7 @@
 [![bioRxiv](https://img.shields.io/badge/bioRxiv-Preprint-blue.svg)](https://doi.org/10.1101/2025.03.09.642155)
 
 <p align="center" width="100%">
-    <img width="90%" src="https://github.com/MLDataAnalytics/interpretable-fc-modeling/blob/main/figures/framework.png"> 
+    <img width="90%" src="https://github.com/MLDataAnalytics/interpretable-fc-modeling/blob/main/figures/pnas.2505600122fig01.jpg"> 
 </p>
 
 *Interpretable predictive modeling of FC-behavior association. Our model learns fine-grained FC patterns predictive of behavioral traits at both regional and participant levels, capturing the overall FC-behavior association. Region-wise predictions are integrated using region-wise relevance scores, yielding a participant level prediction and an interpretable measure of each region’s contribution. These regional predictions and relevance scores are optimized collaboratively using a mean square error (MSE) based loss to enhance prediction performance.*
